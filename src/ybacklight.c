@@ -3,7 +3,7 @@
 #include <string.h>
 #include <errno.h>
 
-#define DRIVER "intel_backlight"
+#define DRIVER "amdgpu_bl0"
 #define DRIVER_PATH "/sys/class/backlight/" DRIVER
 #define BRIGHTNESS DRIVER_PATH "/brightness"
 #define MAX_BRIGHTNESS DRIVER_PATH "/max_brightness"
